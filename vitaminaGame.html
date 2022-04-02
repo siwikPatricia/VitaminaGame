@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Siwik Vitamina Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header class="logo">
+        <img src="logoVitamina.png" alt="logo" id="logo" />
+      </header>
+      <section id="info" class="info hidden">
+        <h1>Welcome bei Vitamina Game</h1>
+        <p>Get as many possible asked vitamins (fruits or vegetables)</p>
+        <p>Have a fun!</p>
+        <h3 class="startGame">Start</h3>
+      </section>
+      <section id="get" class="get">
+        <img src="tafel.png" alt="tafel" id="tafel" />
+        <p class="getAktual">Get</p>
+        <img class="vitamin" src="vitamin-1.png" alt="vitamin" />
+      </section>
+      <section id="game" class="game">
+        <img class="gameVitamin" src="vitamin-6.png" alt="vitamin" />
+        <h1 class="gameOver hidden">Game over</h1>
+      </section>
+      <div id="lifes">
+        <img class="life3" src="life-2.png" alt="life" />
+        <img class="life2" src="life-2.png" alt="life" />
+        <img class="life1" src="life-2.png" alt="life" />
+      </div>
+      <div id="scoreNav">
+        <section id="scoreTop">
+          <h3>Top Score</h3>
+          <p id="topScore">10 000</p>
+        </section>
+        <section id="scoreCurrent">
+          <h3>Current Score</h3>
+          <p id="score">157</p>
+        </section>
+        <button class="btn btnNew">🔄New game</button>
+        <button class="btn btnInfo">Info</button>
+      </div>
+      <footer><a href="https://siwik.ch">siwik.ch</a></footer>
+    </main>
+    <script src="jsVitminaGame.js"></script>
+  </body>
+</html>
